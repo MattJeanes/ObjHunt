@@ -11,7 +11,7 @@ TEAM_PROPS_DEFAULT_MODEL = "models/player/kleiner.mdl"
 TEAM_HUNTERS_DEFAULT_MODEL = "models/player/combine_super_soldier.mdl"
 
 -- the maximum difference between the number of players for each team
-MAX_TEAM_NUMBER_DIFFERENCE = 2
+MAX_TEAM_NUMBER_DIFFERENCE = 1
 
 -- Number of rounds per map
 OBJHUNT_ROUNDS = 4
@@ -20,7 +20,7 @@ OBJHUNT_ROUNDS = 4
 OBJHUNT_ROUND_TIME = 300
 
 -- Initial waiting time before first round starts
-OBJHUNT_PRE_ROUND_TIME = 60
+OBJHUNT_PRE_ROUND_TIME = 45
 
 -- Waiting time before new round starts after first round
 OBJHUNT_POST_ROUND_TIME = 5
@@ -184,7 +184,6 @@ PROP_TAUNTS["Sad trombone"]                 = "taunts/sadtrombone.wav"
 PROP_TAUNTS["SUCC"]                         = "taunts/succ.wav"
 PROP_TAUNTS["Vince with Shamwow"]           = "taunts/shamwow.wav"
 PROP_TAUNTS["This is SPARTA!"]              = "taunts/sparta.wav"
-PROP_TAUNTS["Squeak"]                       = "taunts/squeak.wav"
 PROP_TAUNTS["This Girl"]                    = "taunts/thisgirl.wav"
 PROP_TAUNTS["TROLOLO"]                      = "taunts/trololo.wav"
 PROP_TAUNTS["Woohoo!"]                      = "taunts/woohoo.wav"
