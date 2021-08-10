@@ -20,7 +20,7 @@ OBJHUNT_ROUNDS = 4
 OBJHUNT_ROUND_TIME = 300
 
 -- Initial waiting time before first round starts
-OBJHUNT_PRE_ROUND_TIME = 30
+OBJHUNT_PRE_ROUND_TIME = 60
 
 -- Waiting time before new round starts after first round
 OBJHUNT_POST_ROUND_TIME = 5
@@ -136,47 +136,71 @@ TEXT_COLOR = Color( 255, 255, 255, 255 )
 --[[============]]--
 
 -- change within 0 < range < 256
-TAUNT_MAX_PITCH = 128
-TAUNT_MIN_PITCH = 64
+TAUNT_MAX_PITCH = 150
+TAUNT_MIN_PITCH = 50
 
 PROP_TAUNTS = {}
 -- USAGE:
 -- PROP_TAUNTS["Display Name"] = "taunts/file_name.wav"
 PROP_TAUNTS["Aaaaa"]                        = "taunts/aaaa.wav"
 PROP_TAUNTS["Ahhhh"]                        = "taunts/ahhhh.wav"
-PROP_TAUNTS["Jihad"]                        = "taunts/jihad.wav"
-PROP_TAUNTS["Fist of the North Star"]       = "taunts/atatatat.wav"
+PROP_TAUNTS["Among Us"]                     = "taunts/amongus.wav"
+PROP_TAUNTS["Atatatatat"]                   = "taunts/atatatat.wav"
+PROP_TAUNTS["Bong"]                         = "taunts/bong.wav"
 PROP_TAUNTS["Boom, Headshot!"]              = "taunts/boom_headshot.wav"
 PROP_TAUNTS["Doh!"]                         = "taunts/doh.wav"
-PROP_TAUNTS["Engineer Rant Remix"]          = "taunts/gmodgimn.wav"
+PROP_TAUNTS["DUN DUN!"]                     = "taunts/dundun.wav"
 PROP_TAUNTS["Epic Sax"]                     = "taunts/epicsax.wav"
+PROP_TAUNTS["Wet Fart"]                     = "taunts/fart.wav"
 PROP_TAUNTS["Fart"]                         = "taunts/fart01a.wav"
 PROP_TAUNTS["Greasy Fart"]                  = "taunts/fart01b.wav"
 PROP_TAUNTS["Female Groan"]                 = "taunts/fgroan.wav"
 PROP_TAUNTS["I Guarantee it"]               = "taunts/guarantee_it.wav"
+PROP_TAUNTS["How?"]                         = "taunts/how.wav"
+PROP_TAUNTS["I can't believe"]              = "taunts/icantbelieve.wav"
 PROP_TAUNTS["Idiot Ramble"]                 = "taunts/idiotgman.wav"
+PROP_TAUNTS["Jeopardy"]                     = "taunts/jeopardy.wav"
+PROP_TAUNTS["Jihad"]                        = "taunts/jihad.wav"
+PROP_TAUNTS["John Cena"]                    = "taunts/johncena.wav"
+PROP_TAUNTS["Merry Go 1"]                   = "taunts/kevinmacleodmerrygo.wav"
+PROP_TAUNTS["Moo"]                          = "taunts/moo.wav"
+PROP_TAUNTS["My name Jeff"]                 = "taunts/mynamejeff.wav"
 PROP_TAUNTS["Leedle Leedle Loo"]            = "taunts/leedleleedleloo.wav"
 PROP_TAUNTS["LEEROY... JENKINS!"]           = "taunts/leeroy_jenkins.wav"
+PROP_TAUNTS["MLG Airhorn"]                  = "taunts/mlg_airhorn.wav"
 PROP_TAUNTS["Negative"]                     = "taunts/negative.wav"
-PROP_TAUNTS["Never Do Laundry Again"]       = "taunts/never_again.wav"
+PROP_TAUNTS["Never do laundry again"]       = "taunts/never_again.wav"
+PROP_TAUNTS["Nice"]                         = "taunts/nice.wav"
+PROP_TAUNTS["Oh hell no!"]                  = "taunts/ohhellno.wav"
+PROP_TAUNTS["Okay"]                         = "taunts/okay.wav"
 PROP_TAUNTS["Over 9000"]                    = "taunts/over_9000.wav"
+PROP_TAUNTS["Party Rock Anthem"]            = "taunts/partyrockanthem.wav"
 PROP_TAUNTS["Pingas"]                       = "taunts/pingas.wav"
-PROP_TAUNTS["Please Come Again"]            = "taunts/please_come_again.wav"
-PROP_TAUNTS["What Do You Like To Play"]     = "taunts/pokemon.wav"
-PROP_TAUNTS["Vince With Shamwow"]           = "taunts/shamwow.wav"
-PROP_TAUNTS["This Is SPARTA!"]              = "taunts/sparta.wav"
+PROP_TAUNTS["What do you like to play"]     = "taunts/pokemon.wav"
+PROP_TAUNTS["R2D2 scream"]                  = "taunts/r2d2scream.wav"
+PROP_TAUNTS["REEEEEEEEE!"]                  = "taunts/reeeeeeee.wav"
+PROP_TAUNTS["Rick roll"]                    = "taunts/rickroll.wav"
+PROP_TAUNTS["Sad trombone"]                 = "taunts/sadtrombone.wav"
+PROP_TAUNTS["SUCC"]                         = "taunts/succ.wav"
+PROP_TAUNTS["Vince with Shamwow"]           = "taunts/shamwow.wav"
+PROP_TAUNTS["This is SPARTA!"]              = "taunts/sparta.wav"
+PROP_TAUNTS["Squeak"]                       = "taunts/squeak.wav"
+PROP_TAUNTS["This Girl"]                    = "taunts/thisgirl.wav"
+PROP_TAUNTS["TROLOLO"]                      = "taunts/trololo.wav"
 PROP_TAUNTS["Woohoo!"]                      = "taunts/woohoo.wav"
-PROP_TAUNTS["What You Mean Flames?"]        = "taunts/flames.wav"
+PROP_TAUNTS["Wow!"]                         = "taunts/wow.wav"
 PROP_TAUNTS["Why Nunu"]                     = "taunts/whynunu.wav"
+PROP_TAUNTS["You don't know the power"]     = "taunts/you_dont_know_the_power.wav"
 
 HUNTER_TAUNTS = {}
 -- USAGE:
 -- HUNTER_TAUNTS["Display Name"] = "taunts/file_name.wav"
-HUNTER_TAUNTS["GlaDoS - President"]    = "taunts/glados-president.wav"
-HUNTER_TAUNTS["Come To Papa"]          = "taunts/come_to_papa.wav"
-HUNTER_TAUNTS["No Soul"]               = "taunts/soul.wav"
-HUNTER_TAUNTS["Jaws Theme"]            = "taunts/jaws.wav"
-HUNTER_TAUNTS["I am your Father"]      = "taunts/father.wav"
-HUNTER_TAUNTS["I Will Find You"]       = "taunts/taken.wav"
-HUNTER_TAUNTS["Rude"]                  = "taunts/rude.wav"
-HUNTER_TAUNTS["Where Are You!"]        = "taunts/where.wav"
+HUNTER_TAUNTS["Come To Papa"]               = "taunts/come_to_papa.wav"
+HUNTER_TAUNTS["GLaDoS - President"]         = "taunts/glados-president.wav"
+HUNTER_TAUNTS["It was at this moment"]      = "taunts/itwasatthismoment.wav"
+HUNTER_TAUNTS["Jaws Theme"]                 = "taunts/jaws.wav"
+HUNTER_TAUNTS["Order 66"]                   = "taunts/order66.wav"
+HUNTER_TAUNTS["I Will Find You"]            = "taunts/taken.wav"
+HUNTER_TAUNTS["Run"]                        = "taunts/run.wav"
+HUNTER_TAUNTS["Where Are You!"]             = "taunts/where.wav"
+HUNTER_TAUNTS["Why are you running"]        = "taunts/whyareyourunning.wav"
