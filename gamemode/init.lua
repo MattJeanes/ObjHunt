@@ -48,6 +48,7 @@ net.Receive("Class Selection", function( len, ply )
 	if math.abs( playerTable[ TEAM_PROPS ] - playerTable[ TEAM_HUNTERS ] ) >= MAX_TEAM_NUMBER_DIFFERENCE then
 		if playerTable[ chosen ] == math.max( playerTable[ TEAM_PROPS ], playerTable[ TEAM_HUNTERS ] ) then
 			ply:ChatPrint( "Sorry, that team is currently full." )
+			GAMEMODE:ShowTeam( ply )
 			return end
 	end
 
