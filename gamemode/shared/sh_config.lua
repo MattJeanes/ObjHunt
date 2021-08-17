@@ -148,6 +148,7 @@ PROP_TAUNTS["Among Us"]                     = "taunts/amongus.wav"
 PROP_TAUNTS["Atatatatat"]                   = "taunts/atatatat.wav"
 PROP_TAUNTS["Bong"]                         = "taunts/bong.wav"
 PROP_TAUNTS["Boom, Headshot!"]              = "taunts/boom_headshot.wav"
+PROP_TAUNTS["Chickens"]              		= "taunts/chickens.wav"
 PROP_TAUNTS["Deez Nuts"]					= "taunts/deeznuts.wav"
 PROP_TAUNTS["Doh!"]                         = "taunts/doh.wav"
 PROP_TAUNTS["DUN DUN!"]                     = "taunts/dundun.wav"
@@ -192,6 +193,7 @@ PROP_TAUNTS["Woohoo!"]                      = "taunts/woohoo.wav"
 PROP_TAUNTS["Wow!"]                         = "taunts/wow.wav"
 PROP_TAUNTS["Why Nunu"]                     = "taunts/whynunu.wav"
 PROP_TAUNTS["You don't know the power"]     = "taunts/you_dont_know_the_power.wav"
+PROP_TAUNTS["You're not that guy"]     		= "taunts/yourenotthatguy.wav"
 
 HUNTER_TAUNTS = {}
 -- USAGE:
