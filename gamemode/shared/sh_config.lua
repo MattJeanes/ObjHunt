@@ -80,25 +80,25 @@ OBJHUNT_TEAM_PROPS_CAN_MOVE_PROPS = true
 
 -- entities that are capable of being chosen by props
 USABLE_PROP_ENTITIES = {
-	"prop_physics",
-	"prop_physics_multiplayer"
+    "prop_physics",
+    "prop_physics_multiplayer"
 }
 
 BANNED_PROPS = {
-	"models/props/cs_office/tv_plasma.mdl",
-	"models/props_c17/chair02a.mdl",
-	"models/props/cs_office/fire_extinguisher.mdl",
-	"models/props/cs_office/snowman_arm.mdl",
-	"models/props/cs_assault/money.mdl",
-	"models/props/cs_assault/dollar.mdl",
-	"models/props_c17/door01_left.mdl",
-	"models/props_c17/signpole001.mdl"
+    "models/props/cs_office/tv_plasma.mdl",
+    "models/props_c17/chair02a.mdl",
+    "models/props/cs_office/fire_extinguisher.mdl",
+    "models/props/cs_office/snowman_arm.mdl",
+    "models/props/cs_assault/money.mdl",
+    "models/props/cs_assault/dollar.mdl",
+    "models/props_c17/door01_left.mdl",
+    "models/props_c17/signpole001.mdl"
 }
 
 DOORS = {
-	"func_door",
-	"func_door_rotating",
-	"prop_door_rotating"
+    "func_door",
+    "func_door_rotating",
+    "prop_door_rotating"
 }
 --[[=====================]]--
 --[[COLORS AND HUD CONFIG]]--
@@ -148,6 +148,7 @@ PROP_TAUNTS["Among Us"]                     = "taunts/amongus.wav"
 PROP_TAUNTS["Atatatatat"]                   = "taunts/atatatat.wav"
 PROP_TAUNTS["Bong"]                         = "taunts/bong.wav"
 PROP_TAUNTS["Boom, Headshot!"]              = "taunts/boom_headshot.wav"
+PROP_TAUNTS["Breakfast!"]                   = "taunts/breakfast.wav"
 PROP_TAUNTS["Chickens"]              		= "taunts/chickens.wav"
 PROP_TAUNTS["Deez Nuts"]					= "taunts/deeznuts.wav"
 PROP_TAUNTS["Doh!"]                         = "taunts/doh.wav"
